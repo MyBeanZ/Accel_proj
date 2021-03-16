@@ -1,9 +1,6 @@
-# config file for cmake
-# to create Makefile -> cmd: cmake -S . -B .\build\ -G "MSYS Makefiles"
-# to build from Makefile -> cmd: make
-cmake_minimum_required(VERSION 3.20.0)
+# The following four lines of boilerplate have to be in your project's CMakeLists
+# in this exact order for cmake to work correctly
+cmake_minimum_required(VERSION 3.5)
 
-project(MAIN)
-include_directories(include)
-
-add_executable(${PROJECT_NAME} main.cpp)
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(i2c)
