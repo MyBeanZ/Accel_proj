@@ -1,6 +1,9 @@
 #!/bin/bash
 
+# This script should be run after Toolchain installation
+# Toolchain should be in ~/eps directory
 # ESP Toolchain for ESP8266
+
 export PATH="$PATH:$HOME/esp/xtensa-lx106-elf/bin"
 export IDF_PATH=~/esp/ESP8266_RTOS_SDK
 
