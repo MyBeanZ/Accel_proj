@@ -12,3 +12,5 @@
 
 * follow this article to install the ESP toolchain and dependencies: [ESP8266-RTOS-SDK](https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/linux-setup.html)
 * added bash scripts that export PATHs of Toolchain - run before compiling
+    *cd my_scripts
+    *bash activate_path.sh
