@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This script should be run after Toolchain installation
+# This script should be run after Toolchain installation and before every build
 # Toolchain should be in ~/eps directory
 # ESP Toolchain for ESP8266
 
